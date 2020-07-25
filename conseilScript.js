@@ -1,7 +1,7 @@
 const tezosNode = 'https://tezos-dev.cryptonomic-infra.tech:443';
 const conseilServer = {
     url: 'https://conseil-dev.cryptonomic-infra.tech:443',
-    apiKey: 'c8a0617e-2a54-4f99-aabc-dd2958a61227',
+    apiKey: '',
     network: 'carthagenet'
 }
 const networkBlockTime = 30 + 1;
