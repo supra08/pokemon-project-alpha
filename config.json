@@ -1,0 +1,26 @@
+{
+    "compile_config": {
+        "contract_name": "pokemon.py",
+        "class_name": "MyContract()"
+    },
+    "test_config": {
+        "contract_name": "pokemon.py",
+        "test_name": "AdvancedTest"
+    },
+    "deploy_config": {
+        "node": "https://tezos-dev.cryptonomic-infra.tech:443",
+        "contract_code": "pokemon_compiled.tz",
+        "contract_storage": "pokemon_storage_init.tz",
+        "key": "test_key1",
+        "amount": 1,
+        "delegate_address": "",
+        "fee": 100000,
+        "derivation_path": "",
+        "storage_limit": 10000,
+        "gas_limit": 500000
+    },
+    "contract_interaction_config": {
+        "node": "https://conseil-dev.cryptonomic-infra.tech:443",
+        "api-key": "c8a0617e-2a54-4f99-aabc-dd2958a61227"
+    }
+}

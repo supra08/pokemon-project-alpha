@@ -1,0 +1,8 @@
+# Ignore Files 
+
+# dependencies
+/node_modules
+
+# production
+/contract_build
+/test-build

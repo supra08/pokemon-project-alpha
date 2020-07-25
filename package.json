@@ -1,0 +1,35 @@
+{
+  "name": "pokemon-project-alpha",
+  "version": "1.0.0",
+  "description": "An AR pokemon game based on blockchain",
+  "scripts": {
+    "sync": "node ./utils/scripts/compileSync.js",
+    "test": "bash ./utils/scripts/checkScenario.sh",
+    "compile": "npm run run-code",
+    "run-code": "bash ./utils/scripts/compileCode.sh",
+    "deploy": "node ./utils/ConseilJsUtils/deployContract.js",
+    "get-entry-points": "bash ./utils/scripts/getEntryPoints.sh",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tezsure/Bundle-react.git"
+  },
+  "keywords": [
+    "Tezos",
+    "Blockchain",
+    "SmartPy"
+  ],
+  "author": "Supratik Das",
+  "license": "MIT",
+  "dependencies": {
+    "bs58check": "^2.1.2",
+    "chalk": "^4.1.0",
+    "connect": "^3.7.0",
+    "conseiljs": "0.4.3",
+    "http-server": "^0.12.3",
+    "jquery": "^3.5.1",
+    "libsodium-wrappers-sumo": "^0.7.6",
+    "serve-static": "^1.14.1"
+  }
+}

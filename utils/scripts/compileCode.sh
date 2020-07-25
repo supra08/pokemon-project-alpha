@@ -1,0 +1,1 @@
+./utils/smartpy-cli/SmartPy.sh compile ./contract/pokemon.py "PokemonStorage()" ./contract_build
